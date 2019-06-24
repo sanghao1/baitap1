@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Matrix Admin</title>
+<title>ATN COMPANY</title>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -22,7 +22,7 @@
 
 <!--Header-part-->
 <div id="header">
-  <h1><a href="dashboard.html">Matrix Admin</a></h1>
+  <h1><a href="dashboard.html">ATN COMPANY</a></h1>
 </div>
 <!--close-Header-part--> 
 
@@ -117,13 +117,13 @@
           <form action="" class="form-horizontal" method="POST">
             <div class="control-group">
               <input type="hidden" name="categoryid" value="<?php  echo $category['categoryid'];?>">
-              <label class="control-label">Category Name :</label>
+              <label class="control-label">NAME SHOP :</label>
               <div class="controls">
                 <input name="categoryname" type="text" class="span11" placeholder="Category name" value="<?php echo $category['categoryname']; ?>" />
               </div>
             </div>
             <div class="control-group">
-              <label class="control-label">Description :</label>
+              <label class="control-label">REVENUE:</label>
               <div class="controls">
                 <textarea name="description" class="span11" >
                   <?php echo $category['description']; ?>
